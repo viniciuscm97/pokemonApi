@@ -1,0 +1,18 @@
+{
+    "extends":[
+        "airbnb-base",
+        "airbnb-typescript/base"
+    ],
+    "parserOptions":{
+        "project":"./tsconfig.json"
+    },
+    "rules": {
+        "class-methods-use-this": "off",
+        "linebreak-style": "off",
+        "no-plusplus": "off",
+        "no-restricted-syntax": "off",
+        "no-await-in-loop": "off",
+        "@typescript-eslint/naming-convention": "off",
+        "no-console": "off"
+    }
+}
